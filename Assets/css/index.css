@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    border: 0;
+    /* background-color: rgb(231, 229, 229); */
+}
+
+.navbar{
+    display: flex;
+}
+
+.webtitle img{
+    height: 80px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.navigation{
+    
+   padding-left: 250px;
+   align-items: flex-start;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sect1 {
+    background-image: url("/Assets/images/images\ \(1\).jpeg");
+    height: 400px;
+    
+}
+.cont{
+  
+    margin-left: 50px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+    border:1px solid black;
+    background-color: rgb(243, 245, 243);
+    width: 30%;
+    height: 60%;
+}
+#search{
+    margin-left: 50px;
+}
+#searchform{
+    height: 10px;
+    align-items: center;
+}
+input {
+    all: unset;
+    font: 20px system-ui;
+    height: 100%;
+    padding: 6px 10px;
+    border: 2px solid rgb(224, 222, 222);
+  }
+  ::placeholder{
+      color: white;
+      opacity: 0.8;
+  }
+  button{
+    all: unset;
+    margin-left: 50px;
+   color: rgb(8, 8, 8); 
+   width: 50px;
+   height: 25px;
+   background-color: azure;
+   border: 2px solid rgb(121, 118, 118);
+}
+
+.category{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 100%; 
+    height: 50vh;
+} 
+
+.cat1, .cat2,.cat3{
+    margin-left: 10px;
+    width :100%;
+    height: 100%;
+
+
+}
+#comment{
+   display: flex;
+   flex-direction: row; 
+   margin-bottom: 50px;
+   margin-left: 5px;
+   background-color: rgb(141, 138, 138);
+   height: 60vh;
+   align-content: center;
+}
+.message{
+    width: 50%;
+
+}
+#custreview{
+    width: 250px;
+    color: white;
+    border: 1px solid black;
+
+}
+#postbtn{
+    all: unset;
+    margin-left: 50px;
+   color: black; 
+   width: 10vw;
+   height: 5vh;
+   background-color: rgb(242, 247, 247);
+   border: 2px solid rgb(121, 118, 118);
+
+}
+.social{
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+    width: 100%;
+    color: white;
+
+}
+
+.social img{
+    padding-top: 50px;
+}
+#facebook{
+    padding-left: 100px;
+}
