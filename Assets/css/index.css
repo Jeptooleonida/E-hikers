@@ -1,6 +1,7 @@
 *{
-    padding: 0;
-    border: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 .navbar{
@@ -31,10 +32,9 @@
 }
 
 .sect1 {
-    background-image: url("/");
+    background-image: url("/Assets/images/mountain.jpeg");
+    background-repeat: no-repeat;
     height: 60vh;
-    width: 100%;
-    
 }
 .cont{
   
@@ -65,7 +65,7 @@ input {
       color: white;
       opacity: 0.8;
   }
-  button{
+  #postbtn{
     all: unset;
     margin-left: 50px;
    color: rgb(8, 8, 8); 
@@ -79,7 +79,6 @@ input {
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 20px;
     width: 100%; 
     height: 50vh;
 } 
@@ -97,8 +96,9 @@ input {
    margin-bottom: 50px;
    margin-left: 5px;
    background-color: rgb(141, 138, 138);
-   height: 60vh;
+   height: 40vh;
    align-content: center;
+   align-items: center;
 }
 .message{
     width: 50%;
@@ -112,7 +112,6 @@ input {
 }
 #postbtn{
     all: unset;
-    margin-left: 50px;
    color: black; 
    width: 10vw;
    height: 5vh;
@@ -135,5 +134,5 @@ input {
     padding-top: 50px;
 }
 #facebook{
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
