@@ -22,3 +22,23 @@ function postComment(comment){
 function deletebtn(e){
     e.target.parentNode.remove()
 }
+
+// code to display the like functionality
+const EMPTY_HEART = '♡'
+const FULL_HEART = '♥'
+
+const tapHeart = document.querySelectorAll('.like-glyph');
+
+tapHeart.forEach(element =>{
+    element.addEventListener('click',() =>{
+        if (element.textContent === EMPTY_HEART) {
+            element.textContent = FULL_HEART
+            element.className = 'activated-heart'
+        }
+        else {
+            element.textContent = EMPTY_HEART
+            elememt.className = 'activated-heart'
+          }
+    })
+
+});
