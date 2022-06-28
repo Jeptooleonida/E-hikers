@@ -1,6 +1,7 @@
 *{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: rgb(222, 243, 187); */
     
 }
 
@@ -32,12 +33,14 @@
 }
 
 .sect1 {
-    background-image: url("/Assets/images/mountain.jpeg");
+    background-image: url("/Assets/images/water3.webp");
     background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
     height: 60vh;
 }
 .cont{
-  
+    border-top: 10px;
     margin-left: 50px;
     padding-left: 30px;
     margin-bottom: 40px;
@@ -75,6 +78,10 @@ input {
    border: 2px solid rgb(121, 118, 118);
 }
 
+.hike-category{
+    margin-top: 50px;
+}
+
 .category{
     display:flex;
     flex-direction: row;
@@ -84,12 +91,15 @@ input {
 } 
 
 .cat1, .cat2,.cat3{
-    margin-left: 10px;
+    align-items: flex-start;
     width :100%;
     height: 100%;
-
-
 }
+
+.like-glyph{
+    font-size: 30px;
+}
+
 #comment{
    display: flex;
    flex-direction: row; 
@@ -119,6 +129,7 @@ input {
    border: 2px solid rgb(121, 118, 118);
 
 }
+
 .social{
     background-color: black;
     display: flex;
