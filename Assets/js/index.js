@@ -71,19 +71,15 @@ let getPlaces = () =>{
     let result = JSON.stringify(db.json)
     fetch (url)
     .then (response => response.json())
-    .then (searchData =>{
+    .then (searchData => {
         let querySearch = document.getElementById('querySearch').value
         querySearch = querySearch.toLowerCase();
-        let x = document.querySelector('#querySearch');
-        x.innerHTML = ""
+        let ul = document.querySelector('#searchhere');
+        let li = document.createElement('li')
+        li.className = 'list-here'
+        li.innerText = ""
+        ul.appendChild(li)
 
-        for (i = 0; i <result.length; i++){
-            let data = result[i];
-            if (data.Name.toLowerCase().includes(input)) {
-                const elem = document.createElement("li")
-                x.appendChild(elem)
-            }
-        }
 
     })
     .catch(error => console.log(error))
