@@ -1,10 +1,10 @@
 // function to display customer reviews
 document.addEventListener("DOMContentLoaded", () => {
-    let form = document.querySelector("form")
-    form.addEventListener("submit",(e) =>{
+    let reviewmsg = document.querySelector("#reviewmsg")
+    reviewmsg.addEventListener("submit",(e) =>{
         e.preventDefault();
         postComment(document.getElementById('custreview').value)
-        form.reset()
+        reviewmsg.reset()
 
     })
 });
