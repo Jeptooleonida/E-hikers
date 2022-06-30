@@ -1,0 +1,142 @@
+{
+  "Hiking_places": [
+     {
+         "id":1,
+         "name":"mount kenya",
+         "category":"mountain areas",
+         "location":"Central kenya",
+         "Country":"Kenya",
+         "thumbnail":"https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__340.jpg"
+     },
+     {
+        "id":2,
+        "name":"ngong valley",
+        "category":"valley",
+        "location":" eastern kenya",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/11/18/15/27/backpacker-1835353__340.jpg"
+
+    },
+    {
+        "id":3,
+        "name":"weeter forest",
+        "category":"forest areas",
+        "location":"kakuma",
+        "Country":"Uganda",
+        "thumbnail":"https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432__340.jpg"
+
+    },
+    {
+        "id":4,
+        "name":"victoria lake",
+        "category":"Lake",
+        "location":"Rift Valley",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/10/18/08/13/travel-1749508__340.jpg"
+
+    },
+    {
+        "id":5,
+        "name":"mount Longonot",
+        "category":"mountain areas",
+        "location":"Eastern tanzania",
+        "Country":"Tanzania",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__340.jpg"
+
+    },
+    {
+        "id":6,
+        "name":"mount kleni",
+        "category":"mountain areas",
+        "location":"koti",
+        "Country":"Uganda",
+        "thumbnail":"https://thumbs.dreamstime.com/b/mountain-hiking-29033504.jpg"
+
+    },
+    {
+        "id":7,
+        "name":" nzoia valley",
+        "category":"valley region",
+        "location":"Transoia",
+        "Country":"Kenya",
+        "thumbnail":"https://thumbs.dreamstime.com/b/man-hiking-sunset-mountains-heavy-backpack-man-hiking-sunset-mountains-heavy-backpack-travel-lifestyle-wanderlust-101283731.jpg"
+
+    },
+    {
+        "id":8,
+        "name":"lake nzoviazza",
+        "category":"lake area",
+        "location":"ukambani",
+        "Country":"Kenya",
+        "thumbnail":"data:image/jpeg;base64,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"
+
+    },
+    {
+        "id":9,
+        "name":"kimathi park",
+        "category":"trails",
+        "location":"Embu",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297__180.jpg"
+
+    },
+    {
+        "id":10,
+        "name":"borani walk",
+        "category":"mountain areas",
+        "location":"Central kenya",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__340.jpg"
+
+    },
+    {
+        "id":11,
+        "name":"chepkit",
+        "category":"rivers",
+        "location":"western",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__340.jpg"
+
+    },
+    {
+        "id":12,
+        "name":"nairobi walk",
+        "category":"mountain areas",
+        "location":"nairobi",
+        "Country":"Kenya",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__340.jpg"
+    
+    },
+    {
+        "id":13,
+        "name":"ground area",
+        "category":"flat area",
+        "location":"dodoma",
+        "Country":"Ethopia",
+        "thumbnail":"https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+
+    },
+    {
+        "id":14,
+        "name":"karura",
+        "category":"forest",
+        "location":"Central ",
+        "Country":"congo",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/11/21/17/02/adventure-1846482_960_720.jpg"
+    
+    },
+   
+    {
+        "id":15,
+        "name":"riverside bay",
+        "category":"river",
+        "location":"kokam",
+        "Country":"ghana",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/11/18/14/16/mountaineer-1834841__340.jpg"
+
+
+    }
+
+  ]  
+
+}
