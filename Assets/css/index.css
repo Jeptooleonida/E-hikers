@@ -33,7 +33,7 @@
 }
 
 .sect1 {
-    background-image: url("/Assets/images/water3.webp");
+    background-image: url("./Assets/images/water3.webp");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
