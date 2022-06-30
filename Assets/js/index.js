@@ -1,3 +1,5 @@
+
+
 // function to display customer reviews
 document.addEventListener("DOMContentLoaded", () => {
     let reviewmsg = document.querySelector("#reviewmsg")
@@ -42,3 +44,47 @@ tapHeart.forEach(element =>{
     })
 
 });
+
+// function to implement the search functionality
+//  let handleSearch = function(event){
+//      event.preventDefault();
+//     // call the search from the input 
+//      let searchTerm = event.target.elements['search'].value;
+     
+//      // make the token term tokenized and ensure to remove spaces
+//      let tokens = searchTerm
+//                   .toLowerCase()
+//                   .split('')
+//                   .filter(function(token){
+//                       return token.trim() !== '';
+
+//                   });
+    
+//     if (tokens.length){
+//         let searchTermRegex = new RegExp(tokens.join)
+//     }
+//  }
+
+
+let getPlaces = () =>{
+    const url = 'http://localhost:3000/Hiking_places'
+    let result = JSON.stringify(db.json)
+    fetch (url)
+    .then (response => response.json())
+    .then (searchData =>{
+        let querySearch = document.getElementById('querySearch').value
+        querySearch = querySearch.toLowerCase();
+        let x = document.querySelector('#querySearch');
+        x.innerHTML = ""
+
+        for (i = 0; i <result.length; i++){
+            let data = result[i];
+            if (data.Name.toLowerCase().includes(input)) {
+                const elem = document.createElement("li")
+                x.appendChild(elem)
+            }
+        }
+
+    })
+    .catch(error => console.log(error))
+}
