@@ -64,7 +64,7 @@ input {
     padding: 6px 10px;
     border: 2px solid rgb(224, 222, 222);
   }
-  ::placeholder{
+ ::placeholder{
       color: white;
       opacity: 0.8;
   }
