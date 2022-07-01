@@ -20,6 +20,9 @@ E-hikers is a web application for people who love exploring nature. The platform
 - Store in a folder and open the folder.
 - Using your preffered code editor access the code.
 
+# Live link
+https://jeptooleonida.github.io/E-hikers/
+
 # Technologies Used
 - HTML - Used to come uo with the web structure
 - CSS - Style the page
